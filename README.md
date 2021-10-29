@@ -2,6 +2,12 @@
 Ruby Gem for Materials Informatics
 
 ```
+  gem install zairyo
+```
+
+
+
+```
 % tree zairyo
 zairyo/
 ├── bin/
