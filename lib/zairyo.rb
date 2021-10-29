@@ -9,3 +9,8 @@ module Zairyo
 		end
 	end
 end
+
+
+require_relative "zairyo/material_graph"
+require_relative "zairyo/material_tree"
+require_relative "zairyo/version"
