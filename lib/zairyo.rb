@@ -1,3 +1,8 @@
+require_relative "zairyo/material_graph"
+require_relative "zairyo/material_tree"
+require_relative "zairyo/material_list"
+require_relative "zairyo/zairyo_version"
+
 module Zairyo
 	class << self
 		def new(m_id, m_name)
@@ -9,8 +14,3 @@ module Zairyo
 		end
 	end
 end
-
-
-require_relative "zairyo/material_graph"
-require_relative "zairyo/material_tree"
-require_relative "zairyo/version"

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'zairyo'
-  s.version     = defined?(Zairyo::VERSION) ? Zairyo::VERSION : "0.0.1"
+  s.version     = defined?(Zairyo::VERSION) ? Zairyo::VERSION : "0.0.2"
 
   s.summary     = "Zairyo (材料) Ruby Gem for Materials Informatics"
   s.description = <<~EOF 
@@ -15,6 +15,7 @@ Gem::Specification.new do |s|
   s.files       = ["lib/zairyo.rb",
   					"lib/zairyo/material_graph.rb",
   					"lib/zairyo/material_tree.rb",
+            "lib/zairyo/material_list.rb",
 	  				"lib/zairyo/zairyo_version.rb"]
 
   s.license     = 'MIT'
