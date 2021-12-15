@@ -1,6 +1,6 @@
 MAJOR="0"
 MINOR="0"
-STAGE="2"
+STAGE="3"
 
 
 rm *.gem
@@ -10,4 +10,4 @@ sudo gem install ./zairyo-$MAJOR.$MINOR.$STAGE.gem
 
 gem list -r zairyo
 
-ruby test/test_zairyo.rb
+rake test

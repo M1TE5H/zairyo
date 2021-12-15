@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'zairyo'
+puts $material_list

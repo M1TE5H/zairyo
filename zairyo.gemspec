@@ -1,6 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'zairyo'
-  s.version     = defined?(Zairyo::VERSION) ? Zairyo::VERSION : "0.0.2"
+  s.version     = defined?(Zairyo::VERSION) ? Zairyo::VERSION : "0.0.3"
+  s.executables << 'zairyo'
 
   s.summary     = "Zairyo (材料) Ruby Gem for Materials Informatics"
   s.description = <<~EOF 
