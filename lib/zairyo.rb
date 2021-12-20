@@ -1,6 +1,7 @@
 require_relative "zairyo/material_graph"
 require_relative "zairyo/material_tree"
 require_relative "zairyo/material_list"
+require_relative "zairyo/material_taxa"
 require_relative "zairyo/zairyo_version"
 
 # The main Zairyo driver
@@ -28,6 +29,10 @@ module Zairyo
 		def display
 			puts "Material Identification: {@material_id}"
 			#puts "\nMaterial Identification:\t#{@material_id}\nMaterial Name:\t#{@material_name}"
+		end
+
+		def select_element(id)
+			puts Chemical_Elements::atoms[id]
 		end
 
 		def test

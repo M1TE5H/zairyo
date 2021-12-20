@@ -17,6 +17,7 @@ Gem::Specification.new do |s|
   					"lib/zairyo/material_graph.rb",
   					"lib/zairyo/material_tree.rb",
             "lib/zairyo/material_list.rb",
+            "lib/zairyo/material_taxa.rb",
 	  				"lib/zairyo/zairyo_version.rb"]
 
   s.license     = 'MIT'

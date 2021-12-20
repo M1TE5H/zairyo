@@ -5,6 +5,11 @@ class ZairyoTest < Minitest::Test
 	def test_material_example
 		assert_equal 40,40
 	end
+
+	def test_chemical_elements
+		assert_equal "hydrogen:oganesson",
+		"#{Chemical_Elements::ATOMS.first}:#{Chemical_Elements::ATOMS.last}"
+	end
 end
 
 
